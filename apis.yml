@@ -1,8 +1,24 @@
 aid: jd-business
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jd-business.png
 name: JD Business
-description: 'JD Business is a company surfaced as a portfolio company of hongshan and added to the API
-  Evangelist network as a stub for enrichment. Sector: technology. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'JD Business is the enterprise-facing arm of JD.com (Jingdong), one of China''s largest
+  technology and retail companies, offering B2B procurement, supply-chain, and corporate purchasing
+  services to businesses. JD.com operates across retail, logistics, technology, health, and industrials,
+  and runs the JD Open Platform (JOS / "Zeus" Developer Center) at jos.jd.com, where third-party
+  merchants and partners integrate with JD''s e-commerce, order, product, and logistics systems. This
+  profile was surfaced as a portfolio-linked company and is being enriched from JD''s public surface;
+  JD''s developer platform and enterprise services are primarily China-market and Chinese-language.'
 url: https://raw.githubusercontent.com/api-evangelist/jd-business/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
 - Technology
+- E-Commerce
+- Retail
+- Logistics
+- Supply Chain
+- Procurement
+- China
+common:
+- type: DomainSecurity
+  url: security/jd-business-domain-security.yml
+- type: Website
+  url: https://corporate.jd.com/home
+- type: DeveloperPortal
+  url: https://jos.jd.com/
 apis: []
 maintainers:
 - FN: Kin Lane
