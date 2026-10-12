@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/jd-business/integrations
+- https://n8n.io/integrations/jd-business/
+- https://composio.dev/toolkits/jd-business
+- https://monid.ai/tools/jd-business
+checked:
+- https://composio.dev/toolkits/jd-business
+- https://monid.ai/tools/jd-business
+- https://n8n.io/integrations/jd-business/
+- https://zapier.com/apps/jd-business/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
